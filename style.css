@@ -15,10 +15,10 @@ body {
 
 	min-height: 100vh;
 	position: relative;
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 	background-image: url("https://images.pexels.com/photos/3503629/pexels-photo-3503629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -26,11 +26,12 @@ body {
 }
 .wrapper .box {
 	position: relative;
-	width: 280px;
+	width: 600px;
 	height: 400px;
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
-	margin: 30px;
+	margin: 0 auto;
+	margin-bottom: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
